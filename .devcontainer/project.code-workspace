@@ -1,0 +1,19 @@
+{
+  // dossiers de travail
+  "folders": [
+    {
+      "path": "./devcontainer-typescript"
+    }
+  ],
+  "settings": {
+    // terminal
+    "terminal.integrated.cwd": "/workspaces/devcontainer-typescript",
+    // eslint / prettier
+    "editor.formatOnType": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll": true
+    }
+  }
+}
