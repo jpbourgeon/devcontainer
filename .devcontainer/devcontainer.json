@@ -7,5 +7,5 @@
     "dbaeumer.vscode-eslint",
     "esbenp.prettier-vscode",
   ],
-  "postCreateCommand": "/bin/bash /workspaces/devcontainer/.devcontainer/post-create.sh"
+  "postCreateCommand": "/bin/bash /workspaces/project-name/.devcontainer/post-create.sh"
 }
