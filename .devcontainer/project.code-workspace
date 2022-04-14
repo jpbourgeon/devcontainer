@@ -2,12 +2,12 @@
   // dossiers de travail
   "folders": [
     {
-      "path": "./devcontainer-typescript"
+      "path": "./project-name"
     }
   ],
   "settings": {
     // terminal
-    "terminal.integrated.cwd": "/workspaces/devcontainer-typescript",
+    "terminal.integrated.cwd": "${workspaceFolder}",
     // eslint / prettier
     "editor.formatOnType": true,
     "editor.formatOnPaste": true,
