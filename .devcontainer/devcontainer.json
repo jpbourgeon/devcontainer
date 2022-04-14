@@ -1,9 +1,11 @@
 // https://code.visualstudio.com/docs/remote/devcontainerjson-reference
 {
   "image": "mcr.microsoft.com/vscode/devcontainers/typescript-node",
+  "workspaceFolder": "/workspaces",
   "extensions": [
+    "tomsaunders-code.workspace-explorer",
     "dbaeumer.vscode-eslint",
-    "davraamides.todotxt-mode",
+    "esbenp.prettier-vscode",
   ],
-  "postCreateCommand": "/bin/bash ./.devcontainer/post-create.sh"
+  "postCreateCommand": "/bin/bash /workspaces/devcontainer/.devcontainer/post-create.sh"
 }
