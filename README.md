@@ -1,10 +1,16 @@
-# devcontainer-typescript
+# vscode typescript-node devcontainer
 
-> Typescript devcontainer startup repository
+> Bootstrap a typescript-node devcontainer for vscode in minutes
 
-Pre-requisites : you need to have Docker (Docker Desktop), VSCode and the Remote-Containers extension installed on your dev computer.
+Pre-requisites : you need to install Docker (I use Docker Desktop for convenience), VSCode and the Remote-Containers extension, on your dev computer.
 
-1. Duplicate the template repo <https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template>
-1. Change the `project-name` inside `.devcontainer\devcontainer.json` and `.devcontainer\project.code-workspace`
-1. In VS-Code execute the command `Remote-Containers: Clone Repository in Container Volume..." and follow the instructions
+1. In VS-Code execute the command `Remote-Containers: Clone Repository in Named Container Volume...`
+   1. Clone from URL `jpbourgeon/ts-node-devcontainer`
+   1. `Create a new volume` with a meaningful name
+   1. Leave the target folder name untouched (this is important for the post-create script execution).
+1. Rename the docker image `docker container rename OLD_NAME NEW_NAME`
 1. Start hacking
+   - Configure Github CLI `gh auth login`
+   - Add more extensions inside the container : nx console, github copilot, github copilot labs, ponicode, architect, etc.
+   - Git clone your project's repo and/or add workspaces in the `/workspaces` folder
+   - ...

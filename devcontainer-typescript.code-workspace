@@ -2,7 +2,7 @@
   // dossiers de travail
   "folders": [
     {
-      "path": "./project-name"
+      "path": "."
     }
   ],
   "settings": {
