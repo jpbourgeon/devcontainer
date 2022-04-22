@@ -8,12 +8,17 @@
   "settings": {
     // terminal
     "terminal.integrated.cwd": "${workspaceFolder}",
-    // eslint / prettier
+    // format
     "editor.formatOnType": true,
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
+    // lint
     "editor.codeActionsOnSave": {
       "source.fixAll": true
+    },
+    // files associations
+    "files.associations": {
+      "*.json": "jsonc"
     }
   }
 }

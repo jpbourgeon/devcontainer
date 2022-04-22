@@ -1,14 +1,12 @@
 // https://code.visualstudio.com/docs/remote/devcontainerjson-reference
+// https://mcr.microsoft.com/v2/vscode/devcontainers/typescript-node/tags/list
 {
-  "image": "mcr.microsoft.com/vscode/devcontainers/typescript-node",
-  "workspaceFolder": "/workspaces",
+  "image": "mcr.microsoft.com/vscode/devcontainers/typescript-node:16-bullseye",
   "extensions": [
     "tomsaunders-code.workspace-explorer",
-    "dbaeumer.vscode-eslint",
-    "esbenp.prettier-vscode",
   ],
   "settings": {
     "workspaceExplorer.workspaceStorageDirectory": "/workspaces",
   },
-  "postCreateCommand": "/bin/bash /workspaces/ts-node-devcontainer/.devcontainer/post-create.sh"
+  "postCreateCommand": "/bin/bash /workspaces/devcontainer-ts/.devcontainer/post-create.sh"
 }
