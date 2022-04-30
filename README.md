@@ -7,7 +7,7 @@
 - Based on Microsoft's devcontainer image [Node.js & TypeScript (Debian 16-bullseye)](https://github.com/microsoft/vscode-dev-containers/tree/main/containers/typescript-node)
 - [Workspace Explorer v2.3.0](https://marketplace.visualstudio.com/items?itemName=tomsaunders-code.workspace-explorer)  
   a VSCode extension to help manage workspaces inside the devcontainer
-- [Github CLI v2.8.0](https://github.com/cli/cli/releases/v2.8.0)
+- [Github CLI v2.9.0](https://github.com/cli/cli/releases/v2.9.0)
 
 ## Pre-requisites
 
