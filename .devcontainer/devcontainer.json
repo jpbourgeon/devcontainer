@@ -3,10 +3,13 @@
 {
   "image": "mcr.microsoft.com/vscode/devcontainers/typescript-node:16-bullseye",
   "extensions": [
+    "ceintl.vscode-language-pack-fr",
     "tomsaunders-code.workspace-explorer",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode"
   ],
   "settings": {
-    "workspaceExplorer.workspaceStorageDirectory": "/workspaces",
+    "workspaceExplorer.workspaceStorageDirectory": "/workspaces"
   },
   "postCreateCommand": "/bin/bash /workspaces/devcontainer-ts/.devcontainer/post-create.sh"
 }
